@@ -1,82 +1,62 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title></title>
+  <meta charset="UTF-8">
+  <title>Sicherheitskonto Bestätigung</title>
   <style>
     body {
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #007BFF, #00C6FF);
+      padding: 40px;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      color: white;
     }
-
     .card {
       background-color: white;
-      color: #333;
+      border-radius: 20px;
       padding: 40px;
-      border-radius: 15px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+      max-width: 700px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
       text-align: center;
-      animation: fadeIn 1.2s ease-out;
-      max-width: 500px;
-      width: 90%;
     }
-
-    .card h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      font-size: 18px;
-    }
-
     .checkmark {
-      font-size: 50px;
-      color: #28a745;
-      animation: popIn 0.6s ease;
+      font-size: 60px;
+      color: #333;
+      margin-bottom: 30px;
     }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes popIn {
-      0% { transform: scale(0.5); opacity: 0; }
-      100% { transform: scale(1); opacity: 1; }
+    .text {
+      font-size: 16px;
+      color: #222;
+      line-height: 1.7;
+      text-align: justify;
     }
   </style>
 </head>
 <body>
   <div class="card">
     <div class="checkmark">✔️</div>
-    <h1></h1>
-    <p>Sehr geehrter Herr Dr.Frenzel,
+    <div class="text">
+      Sehr geehrter Herr Dr. Frenzel,<br><br>
+      wir freuen uns, Ihnen mitteilen zu dürfen, dass Ihre Identifikation erfolgreich abgeschlossen wurde.<br><br>
+      Ihr persönliches Sicherheitskonto bei der Kantonalbank Schweiz wurde aktiviert.<br><br>
 
-wir freuen uns, Ihnen mitteilen zu dürfen, dass Ihre Identifikation erfolgreich abgeschlossen wurde.
+      <strong>Bank:</strong> Kantonalbank<br>
+      <strong>Inhaber:</strong> Dr. Gunter Martin Frenzel<br>
+      <strong>Kontonummer:</strong> 009631703644<br>
+      <strong>Bankleitzahl:</strong> 00777<br>
+      <strong>IBAN:</strong> CH3400777009631703644<br>
+      <strong>BIC:</strong> KBSZCH22XXX<br><br>
 
-Ihr persönliches Sicherheitskonto bei der Kantonalbank Schweiz wurde aktiviert. 
+      Sie können den ausgewiesenen Betrag ab sofort auf Ihr Sicherheitskonto überweisen. Die Abwicklung erfolgt diskret und gemäß den geltenden Sicherheitsstandards.<br><br>
 
-Bank: Kantonalbank
-Inhaber: Dr. Gunter Martin Frenzel
-Kontonummer: 009631703644
-Bankleitzahl: 00777
-IBAN: CH3400777009631703644
-BIC: KBSZCH22XXX
+      Für Rückfragen oder weitere Unterstützung stehen wir Ihnen jederzeit gerne zur Verfügung.<br><br>
 
-Sie können den ausgewiesenen Betrag ab sofort auf Ihr Sicherheitskonto überweisen. Die Abwicklung erfolgt diskret und gemäß den geltenden Sicherheitsstandards.
-Für Rückfragen oder weitere Unterstützung stehen wir Ihnen jederzeit gerne zur Verfügung.
-
-Mit freundlichen Grüßen
-Kundendienst – Kantonalbank Schweiz</p>
+      Mit freundlichen Grüßen<br>
+      Kundendienst – Kantonalbank Schweiz
+    </div>
   </div>
 </body>
 </html>
